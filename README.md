@@ -1,0 +1,2 @@
+# trivia
+Alfred workflow
