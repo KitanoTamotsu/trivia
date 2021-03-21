@@ -2,7 +2,7 @@ trivia.alfredworkflowのメモ
 
 機能：
 トリビアの泉のランダム表示
-元ネタは、『トリビアの泉パーフェクトデータベース』（https://www.noncky.net/trivia/）から取得しました
+元ネタは、『トリビアの泉パーフェクトデータベース』（ https://www.noncky.net/trivia/ ）から取得しました
 
 インストール：
 　.alfredworkflowをダウンロード
@@ -56,8 +56,8 @@ trivia.alfredworkflowのメモ
 
 背景:
 
-　LESSON13のRSSマニアで数多くのRSSやHTMLのソースを解析したのでツールを作ってしまいました
-　https://github.com/KitanoTamotsu/favo
+　LESSON14のRSSマニアで数多くのRSSやHTMLのソースを解析したのでツールを作ってしまいました
+　https://github.com/KitanoTamotsu/rssmania
   
 　このワークフローのアイコンは、もちろん、ソースがビュー
 　
