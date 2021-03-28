@@ -65,10 +65,10 @@ trivia.alfredworkflowのメモ
 Ver1.1 2021-03-28
 ・ScriptFilterのJSONフォーマットの編集をワンライナーから1行1プロパティーに変更
 
-　修正前の例
+　修正前
 　json=$json'{"title":"'${title[i]:0:24}'","subtitle":"'${hee[${ix[i]}]}'","arg":"'${link[i]}'"}'
  
- 　修正後の例
+ 　修正後
   json=$json'{"title":"'${trivia[${ix[i]}]:0:24}'",'
   json=$json'"subtitle":"'${hee[${ix[i]}]}'",'
   json=$json'"arg":"'${trivia[${ix[i]}]}'"}' 
