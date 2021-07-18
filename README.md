@@ -27,7 +27,7 @@
 　トリビアの泉のランダム表示
 <br>　元ネタは、[トリビアの泉パーフェクトデータベース]（https://www.noncky.net/trivia/）から取得しました
 ### インストール:
-　1.[Alfredworkflow](zip)をダウンロード 
+　1.[Alfredworkflow](https://github.com/KitanoTamotsu/trivia/releases/download/1.2/trivia.alfredworkflow.zip)をダウンロード 
 <br>　2.ファイルをダブルクリックしてワークフローに登録
 ### 使い方:
 　キーワード『trivia』で起動
