@@ -12,20 +12,20 @@
 <br>　文字列をスペース区切りで書いて、（）で括って、配列に格納しています
 ### 2.ランダムに9件を選んでAlfredフォーマットに出力する
 　shufコマンドを利用します。ない方はインストールしてください
-<br>　またインストール先をScript Filterの先頭部分のPATHに定義してください
+<br>　またインストール先をScriptFilterの先頭部分のPATHに定義してください
 <br>（私はhomebrewでインストールしています）
 <br>
-<br>　shufコマンドはシャッフルです
+<br>　shufコマンドはシャッフルの意味です
 <br>　下記は0から1028までをシャッフルして先頭の9個をix配列に格納します
 ```
 　ix=(`seq 0 1028| shuf| head -n 9`)
 ```
 <br>　後は配列ixの要素を回してJSONをセットしています
-<br>
+<br>　※ver1.2でzsh化する際に1から1029に変更
 #### 取扱説明
 ### 機能:
 　トリビアの泉のランダム表示
-<br>　元ネタは、[トリビアの泉パーフェクトデータベース]（https://www.noncky.net/trivia/）から取得しました
+<br>　元ネタは、[トリビアの泉パーフェクトデータベース](https://www.noncky.net/trivia/)から取得しました
 ### インストール:
 　1.[Alfredworkflow](https://github.com/KitanoTamotsu/trivia/releases/download/1.2/trivia.alfredworkflow.zip)をダウンロード 
 <br>　2.ファイルをダブルクリックしてワークフローに登録
@@ -36,13 +36,15 @@
 ・ScriptFilterのJSONフォーマットの編集をワンライナーから1行1プロパティーに変更
 
 　修正前
+ ```
 　json=$json'{"title":"'${title[i]:0:24}'","subtitle":"'${hee[${ix[i]}]}'","arg":"'${link[i]}'"}'
- 
+ ```
  　修正後
+ ```
   json=$json'{"title":"'${trivia[${ix[i]}]:0:24}'",'
   json=$json'"subtitle":"'${hee[${ix[i]}]}'",'
   json=$json'"arg":"'${trivia[${ix[i]}]}'"}' 
-
+```
 ・ソースとは関係ありませんが、サンプル動画を投稿
 
 
