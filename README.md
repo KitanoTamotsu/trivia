@@ -1,4 +1,3 @@
-## 　　Lesson16.　出力フォーマットへランダムにセットする  
 #### 開発メモ
 
 [サンプル動画](https://user-images.githubusercontent.com/40127279/126052259-d58e103a-5c2b-4e91-8d71-0ef8ef5f89c5.mp4)
